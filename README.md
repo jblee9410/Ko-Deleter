@@ -1,6 +1,6 @@
 # Ko-Deleter
 Deletion based sentence compression
-Deleter를 통한 추출 기반 문장 요약
+## Deleter를 통한 추출 기반 문장 요약
   1. Sentence chunking
   2. Make candidate sentences by deleting each chunk in original input sentence
   3. Score each candidate
