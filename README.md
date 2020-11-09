@@ -3,8 +3,8 @@ Deletion based sentence compression
 ## Deleter를 통한 추출 기반 문장 요약
   1. Sentence chunking
   2. Make candidate sentences by deleting each chunk in original input sentence
-  3. Score each candidate
-  4. Select a candidate sentence
+  3. Scoring each candidate
+  4. Selecting a candidate sentence
 
 ### Sentence chunking
   1. 구문 태그(Etri 의존 구문분석 API, TTA.KO-10.0853)
@@ -18,6 +18,8 @@ Deletion based sentence compression
   
   <img src="https://user-images.githubusercontent.com/56908137/98515297-34c65880-22ae-11eb-96ca-1373e229f66b.png" width="80%">
 
+### Scoring each candidate
+  1. avgPPL
   - Masked Language Model scoring을 기반으로 문장의 각 토큰의 중요도를 판단
 
 <img src="https://user-images.githubusercontent.com/56908137/98509207-207d5e00-22a4-11eb-8dd0-d5a78140c807.PNG" width="80%">
