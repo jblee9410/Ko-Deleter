@@ -19,7 +19,7 @@ Deletion based sentence compression
   <img src="https://user-images.githubusercontent.com/56908137/98515297-34c65880-22ae-11eb-96ca-1373e229f66b.png" width="80%">
 
 ### Scoring each candidate
-  1. avgPPL
-  - Masked Language Model scoring을 기반으로 문장의 각 토큰의 중요도를 판단
+  - avgPPL
+    - Masked Language Model scoring을 기반으로 문장의 각 토큰의 중요도를 판단
 
-<img src="https://user-images.githubusercontent.com/56908137/98509207-207d5e00-22a4-11eb-8dd0-d5a78140c807.PNG" width="80%">
+  <img src="https://user-images.githubusercontent.com/56908137/98509207-207d5e00-22a4-11eb-8dd0-d5a78140c807.PNG" width="80%">
