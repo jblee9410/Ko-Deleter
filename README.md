@@ -11,7 +11,7 @@ Deletion based sentence compression
   2. 개체명 태그(Etri 개체명 인식 API, TTA.KO-10.0852)
   
   예시)
-  ![sentence chunking](https://user-images.githubusercontent.com/56908137/98515295-32fc9500-22ae-11eb-96c7-215ce18d8794.png)
+  <img src="https://user-images.githubusercontent.com/56908137/98515295-32fc9500-22ae-11eb-96c7-215ce18d8794.png" width="50">
 ### Make candidate sentences
   1. 입력 문장에서 각 chunk를 삭제하여 후보 문장 생성
   
