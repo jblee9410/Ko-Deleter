@@ -16,6 +16,7 @@ Deletion based sentence compression
 ### Make candidate sentences
   1. 입력 문장에서 각 chunk를 삭제하여 후보 문장 생성
   
+  - 예시)
   <img src="https://user-images.githubusercontent.com/56908137/98515297-34c65880-22ae-11eb-96ca-1373e229f66b.png" width="80%">
 
 ### Scoring each candidate
